@@ -12,9 +12,9 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require_tree .
 //= require jquery/jquery3
 //= require lodash/lodash
 //= require vuejs/vue
 //= require bootstrap/popper
 //= require bootstrap/bootstrap
+//= require ./welcome
