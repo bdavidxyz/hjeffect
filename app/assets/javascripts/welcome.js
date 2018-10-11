@@ -23,3 +23,14 @@ window.addEventListener('load', function(){
         }
     }
 }, false)
+
+var font = new FontFaceObserver('Caveat', {
+  weight: 400
+});
+
+font.load().then(function () {
+  console.log('Caveat is available');
+  $('body').addClass('fonts-are-loaded')
+}, function () {
+  console.log('Caveat is not available');
+});

@@ -65,7 +65,7 @@ body {
   background-color: $body-bg; // 2
 }
 
-body.is-loaded {
+body.fonts-are-loaded {
   font-family: $font-family-base;
 }
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
