@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require jquery/jquery3
+//= require fontfaceobserver/fontfaceobserver
 //= require lodash/lodash
 //= require bootstrap/popper
 //= require bootstrap/bootstrap
